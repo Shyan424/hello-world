@@ -3,7 +3,7 @@ public class MySorter {
 		if (d.length == 0) {  // ddddddddddddddddddddd
 			double[] d2 = {}; // cccccccccccccc
 			return d2;
-		} else if(smallZero(d)) {
+		} else if(smallZero(d)) {	//dddddddddddddddddddddddddddddddd
 			return d;
 		} else {
 			for (int i = 0; i < d.length - 1; i++) {
