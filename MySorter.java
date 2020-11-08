@@ -1,4 +1,5 @@
 public class MySorter {
+	int[] a;
 	public double[] sort(double[] d) {
 		if (d.length == 0) {
 			double[] d2 = {};
