@@ -19,17 +19,12 @@ public class MySorter {
 	}
 	
 	public boolean smallZero(double d[]) {
-		int count = 0;
 		for(int i = 0; i < d.length; i++) {
 			if (d[i] < 0) {
-				count += 1;
+				return true;
 			}
 		}
-		if (count > 0) {
-			return true;
-		} else {
-			return false;
-		}
+		return false;
 	}
 
 	public void swap(double d[], int k, int s) {
