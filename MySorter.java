@@ -1,6 +1,6 @@
 public class MySorter {
 	public double[] sort(double[] d) {
-		if (d.length == 0) {
+		if (d.length == 0) {  // ddddddddddddddddddddd
 			double[] d2 = {};
 			return d2;
 		} else if(smallZero(d)) {
