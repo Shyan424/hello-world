@@ -1,7 +1,7 @@
 public class MySorter {
 	public double[] sort(double[] d) {
 		if (d.length == 0) {  // ddddddddddddddddddddd
-			double[] d2 = {};
+			double[] d2 = {}; // cccccccccccccc
 			return d2;
 		} else if(smallZero(d)) {
 			return d;
